@@ -1,6 +1,13 @@
-for (var i = 0; i < 100; i++){
+for (var i = 0, j = ''; i < 100; i++){
     if (i % 3 == 0){
-        console.log("Fizz")}
-    console.log(i);
+       j += "Fizz"}
+    if (i % 5 == 0){
+       j += "Buzz"}
+    if (j == ""){
+        j = i}
+    console.log(j)
+    j = '';
 }
+
+// This isn't really FizzBuzz.
 
