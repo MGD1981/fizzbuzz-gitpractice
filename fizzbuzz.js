@@ -12,3 +12,4 @@ for (var i = 0, j = ''; i < 100; i++){
 }
 }
 
+fizzbuzz()
