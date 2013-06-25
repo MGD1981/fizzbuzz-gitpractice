@@ -1,1 +1,1 @@
-This is a test of using git.
+This is a modified test of using git.
