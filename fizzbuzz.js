@@ -1,4 +1,5 @@
-for (var i = 0, j = ''; i < 100; i++){
+// Program is now a function!
+function(){for (var i = 0, j = ''; i < 100; i++){
     if (i % 3 == 0){
        j += "Fizz"}
     if (i % 5 == 0){
@@ -8,6 +9,5 @@ for (var i = 0, j = ''; i < 100; i++){
     console.log(j)
     j = '';
 }
-
-// This isn't really FizzBuzz.
+}
 
